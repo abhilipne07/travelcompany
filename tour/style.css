@@ -1,0 +1,418 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.logo>img {
+    height: 120px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(67, 46, 46, 0.683);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar>.auth {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+
+}
+
+.auth>a {
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* #see :hover {
+    color: black;
+} */
+
+
+
+/*  carousel start */
+.imageslider {
+    height: 700px;
+    width: 100%;
+    background-image: url(/images/box_images/img1.jpg);
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url(/images/box_images/img1.jpg);
+    }
+
+    25% {
+        background-image: url(/images/box_images/img2.jpg);
+    }
+
+    50% {
+        background-image: url(/images/box_images/img3.jpg);
+    }
+
+    75% {
+        background-image: url(/images/box_images/img4.jpg);
+    }
+
+    100% {
+        background-image: url(/images/box_images/img5.jpg);
+    }
+}
+
+/*  carousel end */
+
+/* start boxes */
+.boxes {
+    display: flex;
+
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgb(140, 245, 27);
+    transition: 0.8s;
+}
+
+.box1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+    /* transition: 1s; */
+    background-image: url(/images/boxbgimages/bg1.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box1>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box1>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box1>div {
+    text-align: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgba(248, 240, 3, 0.947);
+    transition: 0.8s;
+}
+
+.box2:hover {
+    transform: scale(0.9);
+    background-image: url(/images/boxbgimages/bg2.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box2>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box2>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box2>div {
+    text-align: center;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgb(255, 134, 4);
+    transition: 0.8s;
+}
+
+.box3:hover {
+    transform: scale(0.9);
+    background-image: url(/images/boxbgimages/bg3.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box3>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box3>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box3>div {
+    text-align: center;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgb(224, 30, 17);
+    transition: 0.8s;
+}
+
+.box4:hover {
+    transform: scale(0.9);
+    background-image: url(/images/boxbgimages/bg4.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box4>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box4>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box4>div {
+    text-align: center;
+}
+
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgb(175, 16, 223);
+    transition: 0.8s;
+}
+
+.box5:hover {
+    transform: scale(0.9);
+    background-image: url(/images/boxbgimages/bg5.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box5>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box5>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box5>div {
+    text-align: center;
+}
+
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    height: 170px;
+    width: 170px;
+    background-color: rgb(17, 232, 243);
+    transition: 0.8s;
+}
+
+.box6:hover {
+    transform: scale(0.9);
+    background-image: url(/images/boxbgimages/bg6.jpg);
+    background-size: 100% 100%;
+}
+
+.boxes>.box6>div>p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.boxes>.box6>div>i {
+    color: white;
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.box6>div {
+    text-align: center;
+}
+
+/* end boxes */
+/* main part start*/
+
+.main {
+    height: 2410px;
+    width: 100%;
+    background-image: url(/pexels-eberhard-grossgasteiger-1624438.jpg);
+}
+
+.calanguta {
+    margin-top: 80px;
+    border-radius: 10px;
+
+    margin-left: 310px;
+    height: 500px;
+    width: 1000px;
+    background-image: url(/images/main_image/beach.jpg);
+    background-size: 100% 100%;
+
+}
+
+#cabout1 {
+    background-color: rgb(213, 137, 23);
+}
+
+#kedarnath1 {
+    background-image: url(/images/main_image/kedarnah.jpg);
+}
+
+
+.main>div {
+    display: flex;
+    justify-content: center;
+}
+
+.cabout {
+
+    height: 100%;
+    width: 350px;
+    background-color: rgb(130, 45, 30);
+}
+
+.cabout>.para {
+    font-family: 'Tai Heritage Pro', serif;
+    color: #ffffff;
+    padding: 50px;
+}
+
+.manali {
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: -310px;
+    margin-top: 80px;
+    height: 500px;
+    width: 1000px;
+    background-image: url(/images/main_image/manali.jpg);
+    background-size: 100% 100%;
+
+}
+
+#hawamahal {
+    background-image: url(/images/main_image/hawa\ mahal.jpg);
+}
+
+#habout1 {
+    background-color: rgb(115, 0, 255);
+}
+
+.mabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 350px;
+    background-color: rgb(158, 187, 44);
+}
+
+.mabout>.para {
+    font-family: 'Tai Heritage Pro', serif;
+    color: #ffffff;
+    padding: 50px;
+}
+
+/* main part end*/
+/* footer part start */
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 370px;
+    width: 100%;
+    color: #ffffff;
+    background-color: rgba(44, 43, 43, 0.902);
+}
+
+footer>div>img {
+    margin-top: 2opx;
+    height: 280px;
+    width: auto;
+}
+
+footer>div {
+    margin-top: 40px;
+}
+
+#hii {
+    /* margin: 10PX; */
+    padding: 5PX;
+    color: #ffffffda;
+}
+
+#img1 {
+    height: 20px;
+    width: 30px;
+    padding: 6px;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+
+/* footer part end */
